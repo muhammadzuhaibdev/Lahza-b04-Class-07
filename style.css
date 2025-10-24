@@ -1,0 +1,26 @@
+.box1 {
+    background-color: tomato;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: translateX(30px);
+    transform: translateY(30px);
+    transform: translate(100px, 30px); */
+    /* transform: rotate(270deg); */
+    /* transform: scale(0.5); */
+    /* transform: skew(30deg, 20deg);
+    transform: translate(30px) rotate(40deg) scale(1.2) skew(20deg, 30deg); */
+    /* transition-property: ;
+    transition-duration: ;
+    transition-timing-function: ; */
+    transition: all 1s linear;
+    transition-delay: 1s;
+}
+
+.box1:hover {
+    background-color: aqua;
+    transform: translate(150px);
+}
